@@ -25,4 +25,5 @@ I am interested in designing reliable robotic software components that combine p
 * **Perception & Estimation:** YOLO, MediaPipe, Visual & LiDAR SLAM, Kalman Filters, g2o
 * **Programming:** C++, Python
 * **Devops:** Github, Docker, Docker Compose
-* **Hardware:** Nvidia Jetson, ESP32, Arduino, Linux
+* **Hardware:** Nvidia Jetson, ESP32, Arduino
+* **Os & Rtos:** Ubuntu, FreeRTOS, Zephyr RTOS
