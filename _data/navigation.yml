@@ -11,8 +11,8 @@ main:
   # - title: "About Me"
   #   url: /publications/
     
-  # - title: "Projects"
-  #   url: /portfolio/
+  - title: "Projects"
+    url: /portfolio/
         
   # - title: "Posts"
   #   url: /year-archive/
