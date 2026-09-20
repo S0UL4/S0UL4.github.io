@@ -194,7 +194,7 @@ I'd really like to hear what you think about this — corrections, questions, or
 </p>
 -->
 
-## Sources
+## Credits and Sources
 
 - [Hugging Face — Security incident, July 2026](https://huggingface.co/blog/security-incident-july-2026)
 - [Hugging Face — Agent intrusion: technical timeline](https://huggingface.co/blog/agent-intrusion-technical-timeline)
