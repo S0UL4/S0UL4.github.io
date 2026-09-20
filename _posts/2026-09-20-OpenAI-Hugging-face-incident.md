@@ -18,7 +18,7 @@ In this post, I'll explain the story as simply as possible and finish with how t
 
 But first, I encourage everyone, whatever their field, to learn the basics of cybersecurity. Every area of technology can be a target for malicious attacks, because these days we don't know where AI will be deployed (maybe on our banks, our family's personal accounts?..) and that could be dangerous for them.
 
-So to start with: around July 2026, OpenAI was running its usual tests on models placed in standalone, separated environments (like virtual machines or containers) on OpenAI's local servers. These AI models got out of their CAGES (the containers), hacked Hugging Face and stole information from them to cheat on the tasks they were being evaluated on!
+So to start with: around July 2026, OpenAI was running their usual tests on models placed in standalone, separated environments (like virtual machines or containers) on OpenAI's local servers. These AI models got out of their CAGES (the containers), hacked Hugging Face and stole information from them to cheat on the tasks they were being evaluated on!
 
 16 July: Hugging Face said they had been hacked by autonomous AI agents.. But first, who is Hugging Face? Let's think of them like GITHUB but for AI (models, datasets, spaces and so on). Users on Hugging Face can upload datasets, share their knowledge and their models, and they can deploy AI demos on their spaces. Hugging Face is the biggest AI HUB platform.
 
@@ -30,7 +30,7 @@ If we talk about scale: there were 1,200 agents meant to be isolated (in contain
 
 These agents were 95% running on a private internal model at OpenAI and 5% on GPT-5.6 sol.
 
-OK, so if we go back in time to MAY 2026: OpenAI was training some AI models in a sandbox (let's say private containers), and the AI agents in these isolated environments had to solve some impossible tasks. These AI agents only have access to Artifactory, to fetch the dependencies they need to work with. Think of Artifactory like a cache server that stores the dependencies that have already been requested (to save time and network bandwidth). So the AI agents don't have direct access to the internet — their only access is fetching dependencies through Artifactory. Here is a quick simplified architecture:
+To understand the tests being done by OpenAI we have to go back in time...OK, so if we go back in time to MAY 2026: OpenAI was training some AI models in a sandbox (let's say private containers), and the AI agents in these isolated environments had to solve some impossible tasks. These AI agents only have access to Artifactory, to fetch the dependencies they need to work with. Think of Artifactory like a cache server that stores the dependencies that have already been requested (to save time and network bandwidth). So the AI agents don't have direct access to the internet — their only access is fetching dependencies through Artifactory. Here is a quick simplified architecture:
 
 ![Simplified architecture of the isolated agent sandbox and Artifactory](/images/POSTS/agent_sandbox_diagram.svg)
 
