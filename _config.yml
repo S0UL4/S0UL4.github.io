@@ -155,9 +155,14 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "custom" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
+  goatcounter:
+    # Sign up free at https://www.goatcounter.com/ and put your site code here.
+    # If your dashboard is https://s0ul4.goatcounter.com then the code is "s0ul4".
+    # Leave blank to disable tracking entirely (nothing is loaded).
+    code                 : "s0ul4"
 
 
 # Reading Files
